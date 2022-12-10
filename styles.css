@@ -168,6 +168,16 @@ tbody {
   background: #eeffe6;
   text-align: center;
 }
+table,
+td,
+tr,
+th {
+  border: 1px solid #852b1b;
+  cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+}
 th {
   width: 225px;
   height: 75px;
@@ -193,11 +203,14 @@ td:first-child {
   font-weight: bold;
   background: #bde1ff;
 }
+.selected {
+  background-color: green;
+}
 /*Contact*/
 h1 {
   color: #9ed034;
 }
-legends {
+.legends {
   color: #4977d1;
   font-weight: bold;
   font-size: 1.3em;
