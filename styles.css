@@ -204,7 +204,7 @@ td:first-child {
   background: #bde1ff;
 }
 .selected {
-  background-color: green;
+  background-color: rgb(150, 227, 87);
 }
 /*Contact*/
 h1 {
